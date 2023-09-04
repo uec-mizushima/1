@@ -25,7 +25,7 @@ for o in range(32,123):
 ka = '}'
 kal = '%08d' % (int(bin(ord(ka))[2:]))
 for j in range(91):
-    for t in range(91):#アルファベットと記号91通り二文字を総当たり
+    for t in range(91):#アルファベットと記号91通り2文字を総当たり
         il.append(al[j] + al[t] + ka)
         ils.append(str(als[j]) + str(als[t]) + str(kal))
 
